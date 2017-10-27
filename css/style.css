@@ -1,0 +1,127 @@
+body  {
+  background-size: 100% 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 150%;
+  font-weight: normal;
+  font-variant: normal;
+  background-attachment: fixed;
+  background-color: #FFF;
+  background-image: url(../images/strip.png);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  text-align: left;
+}
+.lgp {
+  width: 960px;
+  background-image:url(../images/header-bg.png);
+  background-repeat:repeat-x;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 0 10px;
+  background-color: #FFFFFF;
+  margin: 25px auto;
+  border: 1px solid #000000;
+  text-align: left;
+  overflow: hidden;
+}
+header {
+  height:120px;
+  width:100%;
+  margin-bottom:40px;
+}
+.logo {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  height: 100px;
+  width: 300px;
+}
+.contacts {
+  display: block;
+  width: 400px;
+  height: 100px;
+  margin: 10px;
+  float: right;
+  line-height: 21px;
+  font-size: 14px;
+}
+.mail {
+  width: 180px;
+  padding-right: 20px;
+  margin: 0;
+  float: left;
+}
+.city-tel {
+  width: 140px;
+  margin: 0;
+  float: left;
+}
+.tel {
+  color: black;
+  text-decoration: none;
+}
+.city {
+  margin: 0;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+}
+aside {
+  float: left;
+  width: 200px;
+  padding: 15px 10px 15px 20px;
+}
+aside nav ul  {
+  margin: 0px;
+  padding-left: 20px;
+  line-height: 150%;
+}
+aside a {
+  color:#000;
+}
+nav ul li a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+}
+aside ul li {
+  margin:10px 0;
+}
+.text-article {
+  margin-top: 40px;
+}
+article {
+  width:680px;
+  padding: 0 20px;
+}
+h1 {
+  line-height:150%;
+  font-size: 2em;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+article img {
+  margin:15px;
+  border-radius:10px;
+  border:5px solid #00698c;
+}
+.bordered {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  padding: 0 10px 0 20px;
+  background:#DDDDDD;
+  height:90px;
+  overflow: height;
+}
+footer p {
+  margin: 0;
+  padding: 10px 0;
+  font-weight: bold;
+}
